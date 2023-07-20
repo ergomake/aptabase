@@ -34,8 +34,8 @@ services:
     logging:
       driver: "none"
     ports:
-      - 1025:1025
       - 8025:8025
+      - 1025
 
 volumes:
   pgdev-data:
